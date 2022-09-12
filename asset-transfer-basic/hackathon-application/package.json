@@ -1,7 +1,7 @@
 {
     "name": "asset-transfer-basic",
     "version": "1.0.0",
-    "description": "Asset-transfer-basic application implemented in JavaScript",
+    "description": "bgObservation application implemented in JavaScript",
     "engines": {
         "node": ">=12",
         "npm": ">=5"

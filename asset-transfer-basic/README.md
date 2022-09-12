@@ -46,6 +46,9 @@ The Fabric test network is used to deploy and run this sample. Follow these step
    # To deploy the TypeScript chaincode implementation
    ./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-typescript/ -ccl typescript
 
+   # To deploy the TypeScript chaincode implementation
+   ./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-javascript/ -ccl javascript
+
    # To deploy the Go chaincode implementation
    ./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-go/ -ccl go
 
